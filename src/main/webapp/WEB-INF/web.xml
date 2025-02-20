@@ -13,4 +13,23 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
+  
+  <servlet>
+    <servlet-name>myFirstServlet</servlet-name>
+    <servlet-class>tech.luv2code.servlets.FirstServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>myFirstServlet</servlet-name>
+    <url-pattern>/first</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>myThirdServlet</servlet-name>
+    <servlet-class>tech.luv2code.servlets.ThirdServlet</servlet-class>
+  </servlet>
+    
+  <servlet-mapping>
+    <servlet-name>myThirdServlet</servlet-name>
+    <url-pattern>/third</url-pattern>
+  </servlet-mapping>
 </web-app>
